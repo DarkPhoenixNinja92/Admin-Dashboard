@@ -21,8 +21,8 @@
 
 .wrapper .sidebar h2 {
     color: #fff;
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: left;
+    margin: 0 0 30px 10px;
 }
 
 .wrapper .sidebar .nav-menu .nav-itm,
@@ -34,4 +34,24 @@
 
 .wrapper .settings .settings-menu .settings-first {
     margin-top: 5rem;
+}
+
+.fa-solid {
+    margin-right: 1rem;
+}
+
+.wrapper .main {
+    width: 100%;
+    margin-left: 200px;
+    color: #000;
+}
+
+.wrapper .main .header {
+    padding: 55px;
+    background: #fff;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.main-content {
+    background: #a3a0a0;
 }
