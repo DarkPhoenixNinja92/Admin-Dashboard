@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body {
+    background: #a3a0a0;
+}
+
 .wrapper {
     display: flex;
     position: relative;
@@ -50,8 +54,4 @@
     padding: 55px;
     background: #fff;
     border-bottom: 1px solid #e0e4e8;
-}
-
-.main-content {
-    background: #a3a0a0;
 }
