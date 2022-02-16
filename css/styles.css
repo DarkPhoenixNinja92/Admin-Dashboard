@@ -32,7 +32,7 @@ body {
 .wrapper .sidebar .nav-menu .nav-itm,
 .wrapper .settings .settings-menu .settings-itm {
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     color: #fff;
 }
 
@@ -54,4 +54,155 @@ body {
     padding: 55px;
     background: #fff;
     border-bottom: 1px solid #e0e4e8;
+}
+
+.header,
+.search-div,
+.me-upper,
+.btn,
+.symbols {
+    display: flex;
+}
+
+.search-div,
+.me-upper,
+.me-upper i,
+.greet,
+.btn,
+.symbols {
+    position: relative;
+}
+
+.search-div {
+    bottom: 1.5rem;
+}
+
+.search-div input {
+    width: 350%;
+    background-color: #adaa96;
+    border-radius: 15px;
+}
+
+.me-upper {
+    align-items: center;
+    left: 82.5%;
+    bottom: 3.3em;
+}
+
+.me-upper i {
+    right: 2.5em;
+}
+
+.greet {
+    right: 16%;
+    top: 2em;
+}
+
+.btn {
+    align-items: center;
+    left: 54.4%;
+}
+
+.btn .new,
+.btn .upload {
+    margin-right: 1em;
+}
+
+.new,
+.upload,
+.share {
+    padding: 0.4em 2em;
+    border-radius: 20px;
+    color: #fff;
+    background: #0891b2;
+}
+
+.grid,
+.project-section {
+    display: grid;
+    padding: 0.2em;
+    grid-row-gap: 115px;
+    grid-template-rows: repeat(3, 33.33%);
+    grid-template-columns: repeat(2, 50%);
+}
+
+.card {
+    border-left: 5px solid goldenrod;
+    height: 190%;
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    transition: all 600ms ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 15px 20px 1em 0 rgba(0, 0, 0, 0.75);
+}
+
+.symbols {
+    justify-content: flex-end;
+    top: 2.6em;
+}
+
+.card-title,
+.card-descr {
+    margin-left: 1rem;
+}
+
+.notices,
+.announcements,
+.trending-aside {
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+}
+
+.trending-aside,
+.announce,
+.card {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.notices,
+.announcements {
+    grid-template-rows: repeat(3, 33.33%);
+}
+
+.trending-aside {
+    grid-template-rows: repeat(4, 25%);
+}
+
+.announce {
+    width: 25%;
+    margin-top: -95px;
+}
+
+.announce hr {
+    position: relative;
+    width: 85%;
+    left: 0.8em;
+}
+
+.announcement-div h5,
+.announcement-div p {
+    margin-left: 2rem;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.third {
+    border: none;
+}
+
+.trend {
+    position: relative;
+    top: 0.5em;
+}
+
+.trending-aside {
+    margin-top: 1rem;
+    width: 25%;
+}
+
+.trending-now {
+    margin: 0 0 1em 4em;
 }
